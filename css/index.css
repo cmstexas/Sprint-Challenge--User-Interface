@@ -116,8 +116,9 @@ nav >ul{
     display: flex;
     justify-content: center;
     height: 100%;
-    padding: 50px;
+    padding: 30px;
     margin-left: 180px;
+    margin-top: -40px;
 }
 
 .top-content {
@@ -138,12 +139,13 @@ nav >ul{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     width: 750px;
-    height: 300px;
+    height: 350px;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .middle-content {
@@ -303,7 +305,30 @@ footer nav a {
     display: flex;
 }
 
+.fhome{
+    display:flex;
+    order: -10;
+}
 
+.fabout{
+    display:flex;
+    order: -5;
+}
+
+.fproducts{
+    display:flex;
+    order: -1;
+}
+
+.fblog{
+    display:flex;
+    order: 5;
+}
+
+.fcontact{
+    display:flex;
+    order: 10;
+}
 
 
 
